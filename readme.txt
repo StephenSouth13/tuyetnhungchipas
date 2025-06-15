@@ -1,68 +1,39 @@
----------------------------------------------------------------------------------------------------------------------------------------------------------
-Get Pro Version
-https://templatesjungle.gumroad.com/l/cake-store-bakery-shop-html-template
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+<h1 align="center">🎂 Tuyet Nhung Chipas - Cake Store Website 🎂</h1>
 
-It is a free HTML CSS template by TemplatesJungle.com
-You can use this template as a starter template and start building as you require.
+<p align="center">
+  Một website bán bánh kem hiện đại, thiết kế responsive và giao diện tinh tế.
+  <br/>
+  <strong>Dựa trên template miễn phí của <a href="https://templatesjungle.com">TemplatesJungle</a></strong>
+</p>
 
-The code is consistent and can be easily maintained as we have followed a good coding standards. We want everyone to easily understand it and modify it according to their requirement. As the main goal of providing these templates is to give you something to work on before even starting.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/your-image-preview.jpg" alt="Tuyet Nhung Chipas Preview" width="800"/>
+</p>
 
+---
 
-FREE FOR BOTH PERSONAL AND COMMERCIAL USE
+## 📖 Giới thiệu
 
-This HTML Template is provided by TemplatesJungle.com and is free to use in both personal and commercial projects as long as you don't remove our credit link in the footer.
+**Tuyet Nhung Chipas** là một trang web bán bánh kem trực tuyến với thiết kế ngọt ngào, thân thiện và tối ưu trải nghiệm người dùng. Dự án này phù hợp với các cửa hàng bánh, tiệm cà phê, hoặc startup ngành thực phẩm muốn có mặt trực tuyến nhanh chóng.
 
-However, you can remove the credit link by paying for PRO version of the template which also includes additional pages.
+---
 
+## ✨ Tính năng nổi bật
 
-RIGHTS
+- ✅ **Thiết kế responsive** - hoạt động mượt mà trên mọi thiết bị
+- 🛒 **Trang sản phẩm & giỏ hàng** - trình bày rõ ràng, hấp dẫn
+- 🎨 **Giao diện tinh tế** - dễ dàng chỉnh sửa màu sắc, font, bố cục
+- 🔍 **Tìm kiếm & điều hướng nhanh** - trải nghiệm người dùng được tối ưu
+- 📤 **Chia sẻ mạng xã hội** - kết nối dễ dàng với Facebook, Instagram, Twitter,...
 
-You are allowed to use it in your personal projects and commercial projects.
+---
 
-You can modify and sell it to your clients.
+git clone https://github.com/StephenSouth13/tuyetnhungchipas.git
+cd tuyetnhungchipas
+📝 Giấy phép & Bản quyền
+🎁 Template gốc được cung cấp miễn phí bởi TemplatesJungle.com
 
-
-PROHIBITIONS
-
-You cannot remove the credit link which links back to templatesjungle.com if you downloaded free version.
-
-You are not permitted to resell or redistribute (paid or free) as it is. 
-
-You cannot use it to build premium templates, themes or any other goods to be sold on marketplaces.
-
-If you want to share the free resource in your blog, you must point it to original TemplatesJungle.com resource page. 
-
-You cannot host the download file in your website.
-
-
-SUPPORT
-
-You can contact us to report any bugs and errors in the template. We will try and fix them immediately although it's a free resource.
-
-Feel free to let us know about what you want to see in the future downloads. We will definitely give it a thought while creating our next freebie.
-
-
-CREDITS & REFERENCES
-
-https://getbootstrap.com/
-
-Stock Photos
-https://unsplash.com/
-https://www.freepik.com/
-https://www.pexels.com/
-
-Fonts
-Google fonts
-https://fonts.google.com/
-
-Icons
-https://iconify.design/
-
-JQuery Plugins
-Swiper Slider - https://swiperjs.com/
-GLightBox - https://biati-digital.github.io/glightbox/
-Chocolat.js – a Free Lightbox Plugin -http://chocolat.insipi.de/
-
-Thanks for downloading from TemplatesJungle.com !
-
+✔️ Cho phép sử dụng cá nhân và thương mại (với điều kiện giữ credit)
+❤️ Cảm ơn
+Cảm ơn bạn đã ghé thăm dự án Tuyet Nhung Chipas!
+Mọi góp ý, hợp tác, hoặc liên hệ vui lòng gửi qua email: stephensouth1307@gmail.com
