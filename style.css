@@ -1,0 +1,470 @@
+/*
+Theme Name: CakeShop
+Theme URI: https://templatesjungle.com/
+Author: TemplatesJungle
+Author URI: https://templatesjungle.com/
+Description: CakeShop is specially designed product packaged for Bakeries.
+Version: 1.1
+*/
+
+/*--------------------------------------------------------------
+This is main CSS file that contains custom style rules used in this template
+--------------------------------------------------------------*/
+
+/*------------------------------------------------
+CSS STRUCTURE:
+
+1. VARIABLES
+2. GENERAL TYPOGRAPHY
+
+--------------------------------------------------------------*/
+body {
+  --display-font: "Allura", Georgia, serif;
+  --display-font-weight: 400;
+
+  --heading-font: "Roboto", Georgia, serif;
+  --heading-font-weight: 400;
+  --heading-color: var(--bs-dark);
+  --heading-line-height: 1.24;
+
+  --swiper-theme-color: var(--bs-primary);
+  --swiper-pagination-bottom: 20px;
+  --swiper-pagination-bullet-inactive-color: #d7d7d7;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 15px;
+  --swiper-pagination-bullet-size: 7px;
+  --swiper-pagination-bullet-width: 7px;
+
+  --custom-easing: cubic-bezier(.17, .67, .83, .67);
+
+  /* bootstrap */
+  --bs-body-font-family: Roboto, sans-serif;
+  --bs-body-font-size: 1.2rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.7;
+  --bs-body-color: #8f8f8f;
+  --bs-body-color-rgb: 143, 143, 143;
+
+  --bs-primary: #e73c13;
+  --bs-primary-dark: #be3b1a;
+  --bs-secondary: #6c757d;
+  --bs-black: #020202;
+  --bs-light: #F1F1F0;
+  --bs-dark: #212529;
+  --bs-gray: #9aa1a7;
+  --bs-gray-dark: #51565b;
+
+  --bs-primary-rgb: 231, 60, 19;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-black-rgb: 2, 2, 2;
+  --bs-light-rgb: 241, 241, 240;
+  --bs-dark-rgb: 33, 37, 41;
+
+  --bs-link-color: var(--bs-dark);
+  --bs-link-color-rgb: 17, 17, 17;
+  --bs-link-decoration: underline;
+  --bs-link-hover-color: var(--bs-primary);
+  --bs-link-hover-color-rgb: 17, 17, 17;
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    --bs-body-font-size: 1.2rem;
+  }
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: var(--heading-font);
+  font-weight: var(--heading-font-weight);
+  color: var(--heading-color);
+  line-height: var(--heading-line-height);
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5 {
+  font-family: var(--display-font);
+  font-weight: var(--display-font-weight);
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  --bs-dropdown-border-radius: 0;
+  --bs-dropdown-border-width: 0;
+}
+
+.dropdown-item {
+  --bs-dropdown-item-padding-y: 0.5rem;
+  --bs-dropdown-item-padding-x: 1rem;
+  --bs-dropdown-link-color: var(--bs-black);
+  --bs-dropdown-item-border-radius: 0;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  --bs-dropdown-link-active-color: var(--bs-light);
+  --bs-dropdown-link-active-bg: var(--bs-secondary);
+}
+
+/* list group */
+.list-group-item {
+  --bs-list-group-item-padding-x: 0;
+  --bs-list-group-border-width: 0;
+}
+
+/* btn */
+.btn {
+  --bs-btn-border-radius: 0;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--bs-primary-dark);
+  --bs-btn-hover-border-color: var(--bs-primary-dark);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--bs-secondary);
+  --bs-btn-active-border-color: var(--bs-secondary);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: var(--bs-primary);
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: var(--bs-primary);
+  --bs-gradient: none;
+}
+
+.pagination {
+  --bs-pagination-active-bg: var(--bs-primary);
+  --bs-pagination-border-width: 0;
+  --bs-pagination-border-radius: 0;
+}
+
+/* breadcrumb */
+.breadcrumb {
+  --bs-breadcrumb-item-padding-x: 1em;
+}
+
+/* text white */
+.text-white {
+  --heading-color: var(--bs-light);
+  --bs-breadcrumb-item-active-color: var(--bs-light);
+  --bs-breadcrumb-divider-color: var(--bs-light);
+  --bs-link-color-rgb: var(--bs-light-rgb);
+  --bs-link-hover-color-rgb: var(--bs-light-rgb);
+}
+
+.text-white .nav-link {
+  --bs-nav-link-color: var(--bs-light);
+  --bs-nav-link-hover-color: var(--bs-light);
+  --bs-nav-link-active-color: var(--bs-light);
+  --bs-navbar-active-color: var(--bs-light);
+}
+
+/* accordion */
+.accordion {
+  --bs-accordion-border-width: 0;
+  --bs-accordion-border-radius: 0;
+  --bs-accordion-inner-border-radius: 0;
+  --bs-accordion-btn-padding-x: 0;
+  --bs-accordion-btn-padding-y: 1rem;
+  --bs-accordion-btn-color: var(--bs-dark);
+  --bs-accordion-btn-bg: transparent;
+  --bs-accordion-btn-focus-border-color: var(--bs-dark);
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-body-padding-x: 0;
+  --bs-accordion-body-padding-y: 0.5rem;
+  --bs-accordion-active-color: var(--bs-primary);
+  --bs-accordion-active-bg: transparent;
+}
+
+/* 
+.accordion-button {
+  --bs-accordion-btn-padding-y: 1.5rem;
+  --bs-accordion-active-color: var(--bs-primary);
+} */
+
+/* form control */
+.form-control:focus {
+  border-color: #ccc;
+  box-shadow: 0 0 0 0.25rem rgba(200, 200, 200, .25);
+}
+
+/* dark theme */
+[data-bs-theme=dark] {
+  color-scheme: dark;
+
+  --heading-color: #fff;
+  --bs-link-color: #CCCCCC;
+  --bs-link-hover-color: var(--bs-primary);
+  --bs-link-color-rgb: 204, 204, 204;
+  --bs-link-hover-color-rgb: var(--bs-primary-rgb);
+  --bs-body-color: #d1d1d1;
+  --bs-body-bg: #020202;
+  --bs-body-bg-rgb: 2, 2, 2;
+}
+
+[data-bs-theme=dark] .dropdown-item {
+  --bs-dropdown-link-color: var(--bs-light);
+  --bs-dropdown-link-hover-color: var(--bs-white);
+}
+
+[data-bs-theme=dark] .bg-white,
+[data-bs-theme=dark] .bg-light {
+  --bs-bg-opacity: 0.1;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 2.5rem;
+}
+
+.form-control {
+  color: var(--bs-dark);
+  background-color: var(--bs-light);
+}
+
+/* end of Bootstrap Color Theme */
+
+/* letter spacing */
+.ls-1 {
+  letter-spacing: 0.1em;
+}
+.ls-2 {
+  letter-spacing: 0.2em;
+}
+
+/* - Search Form hover Effects
+------------------------------------------------------------- */
+
+#header .action-menu {
+  display: flex;
+  align-items: baseline;
+}
+
+.action-menu .icon {
+  font-size: 18px;
+}
+
+.navbar .search-button {
+  order: 1;
+  font-size: 13px;
+  line-height: 6;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar.show .search-box {
+  max-height: 40px;
+  opacity: 1;
+}
+
+.navbar .search-box {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  width: 100%;
+  height: 100%;
+  max-height: 0;
+  max-width: 400px;
+  min-width: 400px;
+  z-index: 999;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.navbar.show .search-box .search-input {
+  opacity: 1;
+}
+
+
+/* single product */
+/* product-thumbnail-slider */
+.product-thumbnail-slider .swiper-slide {
+  cursor: pointer;
+}
+
+.product-thumbnail-slider.vertical {
+  height: 790px;
+}
+
+@media screen and (max-width:1199px) {
+  .product-thumbnail-slider.vertical {
+    height: 540px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .product-thumbnail-slider.vertical {
+    margin-top: 20px;
+    height: auto;
+  }
+}
+
+/* ------ Quantity ------*/
+.product-quantity .qty-number {
+  margin-right: 20px;
+}
+
+.product-quantity .input-group .btn {
+  height: 48px;
+  border: 1px solid #ccc;
+}
+
+.qty-number .quntity-button {
+  min-width: 40px;
+  height: 40px;
+  font-size: 1.8em;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--accent-dim-color);
+  transition: .5s all ease-in-out;
+}
+
+.qty-number .quntity-button:hover {
+  background-color: var(--accent-lit-color);
+}
+
+.qty-number input {
+  font-size: 1.4em;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border-radius: 0;
+  border: 1px solid var(--dark-color);
+}
+
+.qty-field .regular-price {
+  display: none;
+}
+
+
+/* swiper */
+.swiper-prev,
+.swiper-next {
+  position: absolute;
+  background: #fff;
+  width: 70px;
+  height: 70px;
+  z-index: 10;
+  top: 50%;
+  color: #333;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-prev {
+  left: 0;
+}
+
+.swiper-next {
+  right: 0;
+}
+
+/* btn-link */
+.btn-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+}
+
+/* bg-overlay */
+.bg-overlay {
+  position: relative;
+}
+.bg-overlay::after {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* -- Product Card
+--------------------------------------------------------------*/
+.product-item .product-image img {
+  transition: 0.3s ease-out;
+}
+
+.product-item:hover .product-image img {
+  transform: scale(1.1);
+}
+
+.product-image {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* btn cart */
+.product-item {
+  position: relative;
+}
+
+.product-item .btn-cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  background-color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+  z-index: 1;
+  transition: opacity 0.3s ease-out;
+}
+
+.product-item:hover .btn-cart {
+  opacity: 1;
+}
