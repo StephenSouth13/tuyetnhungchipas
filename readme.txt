@@ -1,4 +1,5 @@
 <h1 align="center">🎂 Tuyet Nhung Chipas - Cake Store Website 🎂</h1>
+xem Demo tại đây: https://stephensouth13.github.io/tuyetnhungchipas/
 
 <p align="center">
   Một website bán bánh kem hiện đại, thiết kế responsive và giao diện tinh tế.
@@ -10,7 +11,7 @@
   <img src="https://user-images.githubusercontent.com/your-image-preview.jpg" alt="Tuyet Nhung Chipas Preview" width="800"/>
 </p>
 
----
+
 
 ## 📖 Giới thiệu
 
